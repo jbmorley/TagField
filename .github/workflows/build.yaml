@@ -22,7 +22,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v6
       with:
-        submodules: recursive
         fetch-depth: 0
 
     - name: Install dependencies
